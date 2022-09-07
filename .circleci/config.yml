@@ -24,4 +24,3 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-      - My pipeline id is << pipeline.id >> and my git branch is << pipeline.git.branch >>.
